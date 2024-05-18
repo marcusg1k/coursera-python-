@@ -25,12 +25,19 @@ def convert_seconds(seconds):
 hours, minutes, seconds = convert_seconds(5000)
 print(hours, minutes, seconds)
 
-name = "Marcus"
-number = len(name) * 9
+name = "Marcus" 
+number = len(name) * 7
+print ("Hello " +name + ". Your lucky number is " + str(number))
 
-print("Hello " + name + ". Your lucky number is " + str(number))
 
-name = "NPC"
-number = len(name) * 9
-
-print("Hello " + name + ". Your lucky number is " + str(number))
+name = "Marcus" 
+number = len(name) * 7
+print ("Hello " +name + ". Your lucky number is " + str(number))
+#instead of this
+#we can simplify to this
+def lucky_number(name):
+    number = len(name) *9
+    print("Hello " + name + ". Your lucky number is: " + str(number))
+    
+lucky_number("Marcus")
+lucky_number("Npc")
