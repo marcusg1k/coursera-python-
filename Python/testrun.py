@@ -1,6 +1,6 @@
-def lucky_number(name):
-    number = len(name) * 7
-    print("Hello " + name + ". Your lucky number is: " + str(number))
-    
-lucky_number("Marcus")
-lucky_number("Npc")
+def calculate(d):
+    q = 3.14
+    z = q * (d ** 2)
+    print(z) 
+
+calculate(5) 
