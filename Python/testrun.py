@@ -1,19 +1,9 @@
+def calculate_storage(filesize):
+    block_size = 4096
+    full_blocks = filesize // block_size
 
-def translate_error_code(error_code):
- 
-    if error_code == "401 Unauthorized":
-        translation = "Server received an unauthenticated request"
- 
-    elif error_code == "404 Not Found":
-        translation = "Requested web page not found on server"
-    elif error_code == "408 Request Timeout":
-        translation = "Server request to close unused connection"
- 
-    else:
-        translation = "Unknown error code"
-    return translation
+    partial_block_remainder = filesize % block_size
 
-print(translate_error_code("404 Not Found"))
-# Outputs Requested web page not found on server
-
-#test branch commit
+    if partial_block_remainder > 0: 
+        return block_size * (full_blocks + 1) 
+    return block_size * full_blocks
