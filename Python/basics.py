@@ -207,3 +207,17 @@ print((15/3 < 2+4) or (0 >= 6-7))
 
 print(country == "New York City" or city == "New York City")
 #false OR true statement so it will return true
+x = 2*3 > 6
+#returns false bc 6 is not greater than 6
+print("The value of x is:")
+print(x)
+
+print("")  # Prints a blank line
+
+print("The inverse value of x is:")
+print(not x)
+#returns false 
+
+today = "Sunday" 
+print(not today == "Monday")
+#returns true bc sunday is NOT equal to monday
