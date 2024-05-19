@@ -1,7 +1,7 @@
 Study guide functions: 
 
 Terms to remember: 
-return value: the value or variable returned as the end result of a funciton
+return value: the value or variable returned as the end result of a function
 
 parameter(argument): a value passed into a function for use within the function
 

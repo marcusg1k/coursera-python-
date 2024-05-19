@@ -101,3 +101,26 @@ print("The volume in milliliters is " + str(convert_volume(2)))
 print("The volume in milliliters is " + str(convert_volume(2)*2))
 # Alternative calculation:
 # print("The volume in milliliters is " + str(convert_volume(4))
+
+# function in the code converts km to meters
+# edit code to complete the function so it returns the result
+# call the funciton to convert the trip distance from km to meters
+# print a text string display the result of the conversion
+
+def convert_distance(km): 
+    m = km * 1000
+    return m
+
+my_trip_kilometers = 55 
+my_trip_meters = convert_distance(my_trip_kilometers)
+
+print("The distance in meters is " + str(my_trip_meters))
+
+
+#complete the first line of the print_seconds function so that it accepts three paramaters
+#hours, minutes and seconds, remember to define a function you use the def keyword
+
+def print_seconds(hours, minutes, seconds):
+    print(hours*3600+minutes*60+seconds)
+print_seconds(1, 2, 3)
+#output is 3723
