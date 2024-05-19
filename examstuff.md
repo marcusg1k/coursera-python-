@@ -39,3 +39,21 @@ a > b or a <= c (true if either side is True. False is both sides are false)
 NOT a == b (true if the statement is false, false if the statement is true) 
 
 the body of the block will only execute when the condition evaluates to true; otherwise it's skipped
+
+Comparison expressions return a Boolean result (True or False). 
+x == y        If x is equal to y, return True. Else, return False.
+x != y         If x is not equal to y, return True. Else, return False.
+x < y          If x is less than y, return True. Else, return False.
+x <= y        If x is less than or equal to y, return True. Else, return False.
+x > y          If x is greater than y, return True. Else, return False.
+x >= y        If x is greater or equal to y, return True. Else, return False.
+Comparison expressions with strings also return a Boolean result (True or False).
+"x" == "y"  If the words are the same, return True. Else, return False.
+"x" != "y"   If the words are not the same, return True. Else, return False.
+When used with strings, the following comparison expressions will alphabetize the strings.
+"x" < "y"   	If string "x"  has a smaller Unicode value than string "y", return True.  Else, return False.
+"x" <= "y" 	If the Unicode value for string "x" is smaller than or equal to the Unicode value of string "y", return True. Else, return False.
+"x" > "y"    	If string "x" has a larger Unicode value than string "y", return True. Else, return False.
+"x" >= "y"  	If the Unicode value for string "x" is greater than or equal to the Unicode value of string "y", return True. Else, return False.
+
+
