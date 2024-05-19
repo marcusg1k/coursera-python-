@@ -34,3 +34,8 @@ if expression is true it becomes false, if it is false it becomes true
 ">=" (greater than or equal to)
 "<=" (less than or equal to) 
 
+a == a AND a != b (true if both sides are true, otherwise false)
+a > b or a <= c (true if either side is True. False is both sides are false)
+NOT a == b (true if the statement is false, false if the statement is true) 
+
+the body of the block will only execute when the condition evaluates to true; otherwise it's skipped
