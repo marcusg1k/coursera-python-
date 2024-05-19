@@ -196,3 +196,5 @@ False
 
 print("matching strings" == "matching strings")
 #the interpreter will return a true result
+print ("matching strings" != "matching strings")
+#interpreter will return a false because the strings are equal
