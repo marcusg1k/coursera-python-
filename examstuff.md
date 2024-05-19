@@ -21,3 +21,9 @@ Review: Comparing things
 Introduction
 This follow-along reading is organized to match the content in the video that follows. It contains the same code shown in the next video. These code blocks will provide you with the opportunity to see how the code is written, allow you to practice running it, and can be used as a reference to refer back to. 
 
+Logical operators: AND, OR, NOT
+To evaluate as true, the operator AND would need both expressions to be true at the same time
+To evalute as true, the operator OR would need only 1 of the conditions to be true to return as true
+The NOT operator inverts the value of the expression thats in front of it
+if expression is true it becomes false, if it is false it becomes true
+
