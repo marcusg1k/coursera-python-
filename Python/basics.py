@@ -198,3 +198,5 @@ print("matching strings" == "matching strings")
 #the interpreter will return a true result
 print ("matching strings" != "matching strings")
 #interpreter will return a false because the strings are equal
+print((6*3 >= 18) and (9+9 <= 36/2))
+#interpreter will return a true result
