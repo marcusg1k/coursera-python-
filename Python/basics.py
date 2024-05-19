@@ -193,3 +193,6 @@ False
 # two items are not equal, so the comparison returns False.
 print("three" == 3)
 False
+
+print("matching strings" == "matching strings")
+#the interpreter will return a true result

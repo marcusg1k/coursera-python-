@@ -1,1 +1,2 @@
-print(25 > 50 or 1 != 2)
+print("matching strings" == "matching strings")
+#the interpreter will return a true result
