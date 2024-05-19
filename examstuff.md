@@ -55,5 +55,11 @@ When used with strings, the following comparison expressions will alphabetize th
 "x" <= "y" 	If the Unicode value for string "x" is smaller than or equal to the Unicode value of string "y", return True. Else, return False.
 "x" > "y"    	If string "x" has a larger Unicode value than string "y", return True. Else, return False.
 "x" >= "y"  	If the Unicode value for string "x" is greater than or equal to the Unicode value of string "y", return True. Else, return False.
-
+syntax for an if-elif-else block
+if condition1: 
+    action1
+elif condition2: 
+    action2
+else:
+    action3
 
