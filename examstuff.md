@@ -27,3 +27,10 @@ To evalute as true, the operator OR would need only 1 of the conditions to be tr
 The NOT operator inverts the value of the expression thats in front of it
 if expression is true it becomes false, if it is false it becomes true
 
+"==" (equality)
+"!=" (not equal to) 
+">" (greater than)
+"<" (less than)
+">=" (greater than or equal to)
+"<=" (less than or equal to) 
+
