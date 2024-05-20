@@ -93,8 +93,13 @@ divisor: a number denominator that is used to divide another number
 sum of all divisors of a number: the result of adding all of the divisors of a number together
 multiplication table: an integer multiplied by a series of numbers and their results formatted as a table or a list
 
+dealing with ranges: In python and a lot of other programming languages, a range of numbers will start with the value 0 by default
+The list of numbers generated will be one less then the given value.
 
 for loops
+for x in range(5): 
+    print(x) #outputs 0, 1, 2, 3, 4
+
 recursion
 
 
