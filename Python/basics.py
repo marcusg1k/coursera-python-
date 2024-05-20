@@ -266,6 +266,7 @@ print(translate_error_code("404 Not Found"))
 #quiz conditionals
 #1) Whats the value of this Python expression: 
 (2**2) == 4
+#correct output is true
 #2) Complete the script by filling in the missing parts. The function receives a name, then returns a greeting based on whether or not that name is "Taylor".
 def greeting(name):
   if name == "Taylor":
