@@ -96,6 +96,9 @@ multiplication table: an integer multiplied by a series of numbers and their res
 dealing with ranges: In python and a lot of other programming languages, a range of numbers will start with the value 0 by default
 The list of numbers generated will be one less then the given value.
 
+Use FOR loops when there's a sequence of elements that you want to iterate
+Use WHILE loops when you want to repeat an action until a condition changes
+
 for loops
 for x in range(5): 
     print(x) #outputs 0, 1, 2, 3, 4

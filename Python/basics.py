@@ -516,3 +516,7 @@ def multiplication_table(number):
 
 multiplication_table(3) #should print 3x1=3, 3x2=6, 3x3=9, 3x4=12, 3x5=15
 multiplication_table(5)
+
+friends = ['Marcus', 'NPC']
+for friend in friends: 
+    print("Hi " + friend)
