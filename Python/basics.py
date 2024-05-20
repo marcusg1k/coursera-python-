@@ -457,3 +457,12 @@ def print_range(start, end):
 
 print_range(1, 5)
 # the n += 1 is the incrementer, it broke the infinite loop
+
+multiplier = 1
+result = multiplier * 5
+while result <= 50:
+    print(result)
+    multiplier += 1
+    result = multiplier * 5
+print("Done")
+#outputs 5 to 50 in increments of 5

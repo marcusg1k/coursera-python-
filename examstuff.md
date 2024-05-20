@@ -76,8 +76,15 @@ Refactoring: When a code is updated to be more self-documenting and clarify the 
 Return value: This is the value or variable returned as the end result of a function
 
 while loops: instruct computer to continuously execute your code based on the value of a condition
+(remember to initialize variables and check that loops wont run forever) 
+while "specified condition" is True:
+    body of loop
+
+
 for loops
 recursion
+
+
 
 
 
