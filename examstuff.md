@@ -63,4 +63,16 @@ elif condition2:
 else:
     action3
 
+Glossary terms to remember(course1, module 2) 
+Built in functions: Functions that exist with Python and can be called directly
+Comments: Notes to yourself and/or other programmers to make the purpose of the code clear
+Data types: Classes of data(example: string, int, float, boolean) which include properties and behaviors of instances of the data type (variables)
+Explicit Conversion: This occurs when code is written to manually convert one data type to another using a data type conversion function
+Expression: A combination of numbers, symbols, or other values that produce a result when evaluated
+Implicit conversion: This occurs when the python interpreter automatically converts one data type to another
+Logical Operators: Operators used to combine or manipulate boolean values (True or False) to create complex conditions for decision making
+Parameter(argument): A value passed into a function for use within the function, controlling the behavior of the CSV reader and writer
+Refactoring: When a code is updated to be more self-documenting and clarify the intent
+Return value: This is the value or variable returned as the end result of a function
+
 
