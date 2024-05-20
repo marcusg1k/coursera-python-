@@ -80,6 +80,19 @@ while loops: instruct computer to continuously execute your code based on the va
 while "specified condition" is True:
     body of loop
 
+infinite loop: missing a method for exiting the loop, causing loop to run forever
+
+break: a break statement in python provides a way to exit out of a loop before the loop's condition is false. Once a break statement is encountered, the program's control flow jumps out of the loop and continues executing the code after the loop
+
+pass: A pass statement in python is a placeholder statement which is used when the syntax requires a statement, but you don't want to execute any code or command
+
+math concepts for practice quiz: 
+prime numbers: integers that have only two factors
+prime factors: prime numbers that are factors of an integer
+divisor: a number denominator that is used to divide another number
+sum of all divisors of a number: the result of adding all of the divisors of a number together
+multiplication table: an integer multiplied by a series of numbers and their results formatted as a table or a list
+
 
 for loops
 recursion
