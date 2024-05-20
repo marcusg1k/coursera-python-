@@ -310,3 +310,12 @@ print(calculate_storage(4097)) # Should be 8192
 print(calculate_storage(6000)) # Should be 8192
 #correct
 
+#diegos fav food is lasagna
+name = "Diego"
+fav_food = "lasagna"
+print(name + "'s favorite food is " + fav_food + ".")
+
+print("blue" == "Blue")
+#output is false bc strings are not equal
+
+
