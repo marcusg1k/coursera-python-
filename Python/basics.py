@@ -466,3 +466,37 @@ while result <= 50:
     result = multiplier * 5
 print("Done")
 #outputs 5 to 50 in increments of 5
+
+# how can we break this infinite loop
+#how can we change the while loop to avoid a python zero division error
+
+def is_power_of_two(number):
+    # Check if the number can be divided by two without a remainder
+    while number != 0 and number % 2 == 0:
+        number = number / 2
+    # If after dividing by two the number is 1, it's a power of two
+    if number == 1:
+        return True
+    return False
+
+print(is_power_of_two(0)) # false
+print(is_power_of_two(1)) # true
+print(is_power_of_two(8)) # true
+print(is_power_of_two(9)) # false
+#function that takes argument n and returns the sum of the integers
+
+def sum_of_integers(n):
+    if n < 1:
+        return 0
+    
+    i = 1
+    sum = 0
+    while i <= n: 
+        sum = sum + i
+        i = i + 1
+
+    return sum
+
+print(sum_of_integers(3)) # should print 6
+print(sum_of_integers(4)) # should print 10
+print(sum_of_integers(5)) # should print 15
