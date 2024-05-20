@@ -1,7 +1,9 @@
-def count_down(start_number): 
-    current = start_number
-    while current > 0: 
-        print(current)
-        current -= 1
-    print("Zero!")
-count_down(3)
+#we want it to stop after 5
+def print_range(start, end):
+    n = start
+    while n <= end:
+        print(n)
+        n += 1
+
+print_range(1, 5)
+# the n += 1 is the incrementer, it broke the infinite loop
