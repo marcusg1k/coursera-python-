@@ -1,9 +1,14 @@
-number = 4
-if number * 4 < 15:
-    print(number / 4)
-elif number < 5: 
-    print(number + 3)
-else:
-    print(number * 2 % 5)
+#pass fail using if-elif-else statements
 
-#output should be 7 because 4 < 5 and 4 + 3 = 7
+def exam_grade(score): 
+    if score > 95: 
+        return "Top Score"
+    elif score >= 60: 
+        return "Pass"
+    else: 
+        grade = "Fail"
+        return grade
+    
+print(exam_grade(65)) # Pass
+print(exam_grade(55)) # Fail
+print(exam_grade(96)) # Top Score
