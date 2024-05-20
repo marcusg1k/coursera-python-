@@ -75,7 +75,7 @@ Parameter(argument): A value passed into a function for use within the function,
 Refactoring: When a code is updated to be more self-documenting and clarify the intent
 Return value: This is the value or variable returned as the end result of a function
 
-while loops: 
+while loops: instruct computer to continuously execute your code based on the value of a condition
 for loops
 recursion
 
