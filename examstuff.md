@@ -109,6 +109,10 @@ What are strings?
 Strings represent a sequence of characters and are often used to display output to the user. 
 You can recognize a string because it is usually surronded by single or double quotes. "String" 'string' 
 
+for vs while loops
+while loops are used when a segment of code needs to execute repeatedly while a condition is true
+for loops iterate over a sequence of elements, executing the body of the loop for each element in the sequence
+
 recursion
 
 range() function can take up to three parameters: range(start, stop, step)
