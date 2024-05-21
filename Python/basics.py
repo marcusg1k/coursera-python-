@@ -606,3 +606,7 @@ greet_friends("Marcus")
 for number in range(1, 6+1, 2):
     print(number * 3)
 #outputs: 3, 9, 15
+
+for number in range(2, 8): 
+    print(number**2)
+    #goes up from +5, to +7, to +9, to +11 and so on
