@@ -102,6 +102,12 @@ Use WHILE loops when you want to repeat an action until a condition changes
 for loops
 for x in range(5): 
     print(x) #outputs 0, 1, 2, 3, 4
+for loop recap: enable you to iterate over a sequence of values, such as numbers, names, or lines in a file
+You can even iterate over a list of strings.
+
+What are strings?
+Strings represent a sequence of characters and are often used to display output to the user. 
+You can recognize a string because it is usually surronded by single or double quotes. "String" 'string' 
 
 recursion
 
@@ -109,6 +115,7 @@ range() function can take up to three parameters: range(start, stop, step)
 start: first item in range()
 stop: second item in range()
 step: third item in the range() 
+
 
 
 
