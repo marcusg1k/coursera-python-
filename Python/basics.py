@@ -546,3 +546,8 @@ i = 20
 while(i > 15):
     print(i)
     i = i - 1
+    # you want to welcome 3 users from a list by their name
+
+name = ["Marcus", "NPC", "NPC2"]
+for i in name: 
+    print("Welcome, " , i)

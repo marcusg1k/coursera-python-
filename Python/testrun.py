@@ -1,6 +1,5 @@
-#you want to print out the numbers 20, 19, 18, 17, and 16
+# you want to welcome 3 users from a list by their name
 
-i = 20
-while(i > 15):
-    print(i)
-    i = i - 1
+name = ["Marcus", "NPC", "NPC2"]
+for i in name: 
+    print("Welcome, " , i)
