@@ -2,4 +2,5 @@ def greet_friends(friends):
     for friend in friends:
         print("Hi " + friend)
 
-greet_friends(['marcus', 'npc', 'npc2', 'npc3'])    
+greet_friends("Marcus")
+#outputs hi + M, hi + A, hi + R, hi + C, hi + U, hi + S

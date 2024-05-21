@@ -595,3 +595,10 @@ def greet_friends(friends):
 
 greet_friends(['Taylor', 'Luisa', 'Jamaal', 'Eli'])   
 #prints hi + all names 
+
+def greet_friends(friends):
+    for friend in friends:
+        print("Hi " + friend)
+
+greet_friends("Marcus")
+#outputs hi + M, hi + A, hi + R, hi + C, hi + U, hi + S
