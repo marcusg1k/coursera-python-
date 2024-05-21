@@ -105,7 +105,10 @@ for x in range(5):
 
 recursion
 
-
+range() function can take up to three parameters: range(start, stop, step)
+start: first item in range()
+stop: second item in range()
+step: third item in the range() 
 
 
 
