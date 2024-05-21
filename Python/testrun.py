@@ -1,3 +1,4 @@
-for n in range(5): 
-    print(n)
-    #outputs 0, 1, 2, 3, 4
+#you want to print "Access Denied" 5 times
+
+for i in range(5): 
+    print("Access Denied")
