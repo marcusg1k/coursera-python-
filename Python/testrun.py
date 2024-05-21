@@ -1,4 +1,6 @@
-# you want to print out a sequence of numbers starting at 10 and ending at 30
-for i in range(10, 31):
+#you want to print out the numbers 20, 19, 18, 17, and 16
+
+i = 20
+while(i > 15):
     print(i)
-    #outputs the numbers from 10 to 30
+    i = i - 1
