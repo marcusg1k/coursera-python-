@@ -568,4 +568,11 @@ for home_team in teams:
 for char in greeting:
 	print(char)
 #outputs H e l l o but in separate lines
+
+greeting = "marcus" 
+for char in greeting: 
+    print(char)
+
+for i in range(len(greeting)): 
+    print(i)
       
