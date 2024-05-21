@@ -1,5 +1,5 @@
-string1 = "Greetings, Earthlings"
-print(string1[0])   # Prints “G”
-print(string1[4:8]) # Prints “ting”
-print(string1[11:]) # Prints “Earthlings”
-print(string1[:5])  # Prints “Greet”
+def greet_friends(friends):
+    for friend in friends:
+        print("Hi " + friend)
+
+greet_friends(['marcus', 'npc', 'npc2', 'npc3'])    

@@ -589,3 +589,9 @@ print(string1[4:8]) # Prints “ting”
 print(string1[11:]) # Prints “Earthlings”
 print(string1[:5])  # Prints “Greet”
       
+def greet_friends(friends):
+    for friend in friends:
+        print("Hi " + friend)
+
+greet_friends(['Taylor', 'Luisa', 'Jamaal', 'Eli'])   
+#prints hi + all names 
