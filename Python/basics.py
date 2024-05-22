@@ -770,3 +770,7 @@ print("Name, " + name + ", Favorite color: " + color)
 pet = "loooooooooooooooooooong cat"
 print(len(pet))
 #outputs like 27 bc of the length of the string
+
+name = "Marcus" 
+print(name[1:5])
+#prints only arcu

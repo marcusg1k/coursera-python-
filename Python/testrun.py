@@ -1,2 +1,3 @@
-pet = "loooooooooooooooooooong cat"
-print(len(pet))
+name = "Marcus" 
+print(name[1:5])
+#prints only arcu
