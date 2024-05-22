@@ -1,18 +1,10 @@
-#fill in the blanks to complete the is_palindrome function
-# function checks if a string is a palindrome
+#use format method to fill gaps in the convert_distance function
 
-def is_palindrome(input_string):
-    new_string = "" 
-    reverse_string = ""
-    for letter in input_string:
-        if letter != " ": 
-            new_string = new_string + letter
-            reverse_string = letter + reverse_string
+def convert_distance(miles):
+    km = miles * 1.6
+    result = "{miles} miles equals {km} km".format(miles=miles, km=km)
+    return result
 
-    if new_string.lower() == reverse_string.lower():
-        return True
-    return False
-
-print(is_palindrome("Never Odd or Even")) # should be true
-print(is_palindrome("abc")) # should be false
-print(is_palindrome("kayak")) # should be true
+print(convert_distance(12)) #should be 12 miles equals 19.2 km
+print(convert_distance(5.5)) #should be 5.5 miles equals 8.8 km
+print(convert_distance(11)) #should be 11 miles equals 17.6 km
