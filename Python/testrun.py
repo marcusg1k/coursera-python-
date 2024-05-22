@@ -1,6 +1,3 @@
-x = 1
-sum = 0
-while x <= 10: 
-    sum += x 
-    x += 1
-print(sum)
+for count in range(1, 6): 
+    print(count + 1)
+    #first output is 2, then 3, 4, 5, 6
