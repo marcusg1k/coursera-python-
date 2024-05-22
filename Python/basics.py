@@ -649,3 +649,36 @@ while number <= 7:
     #find and correct the error in the for loop, loop should print every number from 5 to 0 in descending
 for number in range(5, -1, -1):
     print(number)
+
+    #fill in the blanks to complete the function "even_numbers"
+def even_numbers(n):
+    count = 0
+    current_number = 0
+    while count <= n:
+        if current_number % 2 == 0:
+            count += 1
+        current_number += 1
+    return count 
+
+
+print(even_numbers(25)) #should print 13
+print(even_numbers(144)) # should print 73
+print(even_numbers(1000)) #should print 501
+print(even_numbers(0)) #should print 1
+
+#fill in to complete rows_asteriks function
+
+def rows_asteriks(rows): 
+    for x in range(0, rows): 
+        for y in range(0, x + 1): 
+            print("*", end="")
+            print()
+
+rows_asteriks(5)
+
+#output should be
+#*
+#**
+#***
+#****
+#*****

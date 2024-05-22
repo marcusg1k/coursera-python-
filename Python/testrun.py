@@ -1,3 +1,16 @@
-#find and correct the error in the for loop, loop should print every number from 5 to 0 in descending
-for number in range(5, -1, -1):
-    print(number)
+#fill in to complete rows_asteriks function
+
+def rows_asteriks(rows): 
+    for x in range(0, rows): 
+        for y in range(0, x + 1): 
+            print("*", end="")
+            print()
+
+rows_asteriks(5)
+
+#output should be
+#*
+#**
+#***
+#****
+#*****
