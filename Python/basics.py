@@ -700,3 +700,10 @@ for outer_loop in range(2, 6 + 1):
             print(inner_loop)
 
 # the initial value of the outer loop is 2
+
+#print numbers from 15 to 5 counting down by 5
+number = 15
+while number >= 5: 
+    print(number, end=" ")
+    number -= 5
+
