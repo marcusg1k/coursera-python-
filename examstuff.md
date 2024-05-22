@@ -162,3 +162,5 @@ string [x:y] = string operation that accessses a substring starting at index [x]
 string.replace(old, new) = string method that returns a new string where all occurrences of an old substring have been replaced by a new substring
 
 string.lower() = string method that returns a copy of the string with all lowercase characters
+
+List = sequences of elements of any type and are mutable

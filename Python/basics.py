@@ -871,3 +871,9 @@ print(get_word("This is a lesson about lists", 4))
 fruits = ["Pineapple", "Banana", "Apple", "Melon"]
 fruits.append("Kiwi")
 print(fruits)
+
+fruits = ["Pineapple", "Banana", "Apple", "Melon"]
+fruits.insert(0, "Orange")
+fruits.insert(25, "Peach")
+fruits.remove("Melon")
+print(fruits)
