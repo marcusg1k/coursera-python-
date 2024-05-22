@@ -639,3 +639,13 @@ def count_by_10(end):
 # Call the function with 1 integer parameter.
 print(count_by_10(100))
 # Should print 0 10 20 30 40 50 60 70 80 90 100
+
+#fill in the blanks to print the numbers 1 through 7
+number = 1
+while number <= 7: 
+    print(number, end=" ")
+    number = number + 1
+
+    #find and correct the error in the for loop, loop should print every number from 5 to 0 in descending
+for number in range(5, -1, -1):
+    print(number)
