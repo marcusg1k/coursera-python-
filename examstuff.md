@@ -148,4 +148,17 @@ z = incremental value
 
 print() Function default behavior
 
+String operations and methods
+.format() = string method that can be used to concatenate and format strings
 
+{:2f} = within the .format() method, limits a floating point variable to 2 decimal places. The number of decimal places can be customized. 
+
+len(string) = string operation that returns the length of the string
+
+string[x] = string operation that accesses the character at index [x] of the string, where indexing starts zero
+
+string [x:y] = string operation that accessses a substring starting at index [x] and ending at index [y-1] 
+
+string.replace(old, new) = string method that returns a new string where all occurrences of an old substring have been replaced by a new substring
+
+string.lower() = string method that returns a copy of the string with all lowercase characters
