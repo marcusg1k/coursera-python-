@@ -9,8 +9,19 @@
 #9 initial value of the outer loop - 2 (Correct)
 #10 code causes an infinite loop - use for loop (wrong)
 
-#print numbers from 15 to 5 counting down by 5
-number = 15
-while number >= 5: 
-    print(number, end=" ")
-    number -= 5
+#function should count how many even numbers exist in a sequence from 0 to the given "n" number
+#example even_numbers(25) should return 13
+
+def even_numbers(n): 
+    count = 0
+    current_number = 0
+    while current_number <= n:
+        if current_number % 2 == 0:
+            count += 1
+        current_number += 1
+    return count
+
+print(even_numbers(25)) # should output 13
+print(even_numbers(144)) # should output 73
+print(even_numbers(1000)) # should output 501
+print(even_numbers(0)) # should output 1
