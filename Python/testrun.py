@@ -9,23 +9,17 @@
 #9 initial value of the outer loop - 2 (Correct)
 #10 code causes an infinite loop - use for loop (wrong)
 
-#complete the countdown function
-#function should begin at the start variable 
-#function call like countdown(2) will return 2, 1, 0
+#fill in the blanks to complete the "even_numbers" function
+#function should return a space separated string of all positive even numbers
+#print(even_numbers(6)) #should be 2 4 6
 
-def countdown(start):
-    x = start
-    if x > 0:
-        return_string = "Counting down to 0: "
-        while x >= 0: 
-            return_string += str(x)
-            if x > 0:
-                return_string += ", "
-            x -= 1
-    else: 
-        return_string = "Cannot count down to 0"
-    return return_string
-
-print(countdown(10))
-print(countdown(2))
-print(countdown(0))
+def even_numbers(n):
+    return_string = ""
+    for x in range(2, n+1, 2):
+        return_string += str(x) + " "
+    return return_string.strip()
+print(even_numbers(6)) # should be 2 4 6
+print(even_numbers(10)) # should be 2 4 6 8 10
+print(even_numbers(1)) # should be empty
+print(even_numbers(3)) # should be 2
+print(even_numbers(0)) # should be empty

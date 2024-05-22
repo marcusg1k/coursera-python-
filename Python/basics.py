@@ -726,3 +726,17 @@ print(countdown(10))
 print(countdown(2))
 print(countdown(0))
 
+#fill in the blanks to complete the "even_numbers" function
+#function should return a space separated string of all positive even numbers
+#print(even_numbers(6)) #should be 2 4 6
+
+def even_numbers(n):
+    return_string = ""
+    for x in range(2, n+1, 2):
+        return_string += str(x) + " "
+    return return_string.strip()
+print(even_numbers(6)) # should be 2 4 6
+print(even_numbers(10)) # should be 2 4 6 8 10
+print(even_numbers(1)) # should be empty
+print(even_numbers(3)) # should be 2
+print(even_numbers(0)) # should be empty
