@@ -1,9 +1,11 @@
-#fill gaps with nametag function
+#replace_ending function
 
-def nametag(first_name, last_name):
-    #ends with .format
-    return "{0} {1}.".format(first_name, last_name[0])
+def replace_ending(sentence, old, new):
+    if sentence.endswith(old):
+        i = sentence.rfind(old)
+        new_sentence = sentence[:i] + new
+        return new_sentence
+    
+    return sentence
 
-
-print(nametag("Jane", "Smith")) #should output Jane S.
-print(nametag("Marcus", "NPC")) #should output Marcus N.
+print(replace_ending("It's raining cats and cats", "cats", "dogs"))
