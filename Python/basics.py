@@ -855,3 +855,15 @@ def replace_ending(sentence, old, new):
     return sentence
 
 print(replace_ending("It's raining cats and cats", "cats", "dogs"))
+
+#using the split string method
+
+def get_word(sentence, n):
+    if n > 0: 
+        words = sentence.split()
+
+        if n <= len(words):
+            return words[n-1]
+        return("")
+
+print(get_word("This is a lesson about lists", 4))

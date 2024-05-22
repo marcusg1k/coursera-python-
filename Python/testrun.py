@@ -1,11 +1,11 @@
-#replace_ending function
+#using the split string method
 
-def replace_ending(sentence, old, new):
-    if sentence.endswith(old):
-        i = sentence.rfind(old)
-        new_sentence = sentence[:i] + new
-        return new_sentence
-    
-    return sentence
+def get_word(sentence, n):
+    if n > 0: 
+        words = sentence.split()
 
-print(replace_ending("It's raining cats and cats", "cats", "dogs"))
+        if n <= len(words):
+            return words[n-1]
+        return("")
+
+print(get_word("This is a lesson about lists", 4))
