@@ -757,3 +757,16 @@ for outer_loop in range(2, 6+1):
             print(inner_loop)
 
 # the initial value of the outer loop variable is 2
+
+name = "Marcus"
+color = "blue"
+#string practice
+
+name = "Marcus" 
+color = "Blue"
+
+print("Name, " + name + ", Favorite color: " + color)
+
+pet = "loooooooooooooooooooong cat"
+print(len(pet))
+#outputs like 27 bc of the length of the string
