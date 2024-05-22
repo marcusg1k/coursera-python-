@@ -127,5 +127,9 @@ infinite loop: a sequence that is missing a method for eiting the loop, causing 
 iterators: variables that allow you to loop through a collection one item at a time
 loop: a sequence that makes the computer do repetitive tasks
 programming: the process of writing a program to behave in different ways
+pass: a placeholder statement which is used when the syntax requires a statement, but you dont want to execute any code or command
+recursion: the repeated application of the same procedure to a smaller problem
+while loop: this is used when a segment of code needs to execute repeatedly while a condition is true 
+
 
 
