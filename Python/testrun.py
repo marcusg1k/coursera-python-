@@ -1,16 +1,6 @@
-#fill in to complete rows_asteriks function
-
-def rows_asteriks(rows): 
-    for x in range(0, rows): 
-        for y in range(0, x + 1): 
-            print("*", end="")
-            print()
-
-rows_asteriks(5)
-
-#output should be
-#*
-#**
-#***
-#****
-#*****
+x = 1
+sum = 0
+while x <= 10: 
+    sum += x 
+    x += 1
+print(sum)
