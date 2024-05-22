@@ -706,3 +706,23 @@ while number >= 5:
     print(number, end=" ")
     number -= 5
 
+#function should begin at the start variable 
+#function call like countdown(2) will return 2, 1, 0
+
+def countdown(start):
+    x = start
+    if x > 0:
+        return_string = "Counting down to 0: "
+        while x >= 0: 
+            return_string += str(x)
+            if x > 0:
+                return_string += ", "
+            x -= 1
+    else: 
+        return_string = "Cannot count down to 0"
+    return return_string
+
+print(countdown(10))
+print(countdown(2))
+print(countdown(0))
+

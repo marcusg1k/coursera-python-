@@ -9,19 +9,23 @@
 #9 initial value of the outer loop - 2 (Correct)
 #10 code causes an infinite loop - use for loop (wrong)
 
-#function should count how many even numbers exist in a sequence from 0 to the given "n" number
-#example even_numbers(25) should return 13
+#complete the countdown function
+#function should begin at the start variable 
+#function call like countdown(2) will return 2, 1, 0
 
-def even_numbers(n): 
-    count = 0
-    current_number = 0
-    while current_number <= n:
-        if current_number % 2 == 0:
-            count += 1
-        current_number += 1
-    return count
+def countdown(start):
+    x = start
+    if x > 0:
+        return_string = "Counting down to 0: "
+        while x >= 0: 
+            return_string += str(x)
+            if x > 0:
+                return_string += ", "
+            x -= 1
+    else: 
+        return_string = "Cannot count down to 0"
+    return return_string
 
-print(even_numbers(25)) # should output 13
-print(even_numbers(144)) # should output 73
-print(even_numbers(1000)) # should output 501
-print(even_numbers(0)) # should output 1
+print(countdown(10))
+print(countdown(2))
+print(countdown(0))
