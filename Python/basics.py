@@ -740,3 +740,20 @@ print(even_numbers(10)) # should be 2 4 6 8 10
 print(even_numbers(1)) # should be empty
 print(even_numbers(3)) # should be 2
 print(even_numbers(0)) # should be empty
+
+# how many numbers will this loop print
+
+for sum in range(5): 
+    sum += sum
+    print(sum)
+
+# the loop printed 5 numbers 
+
+# initial value of the outerloop variable
+
+for outer_loop in range(2, 6+1):
+    for inner_loop in range(outer_loop):
+        if inner_loop % 2 == 0:
+            print(inner_loop)
+
+# the initial value of the outer loop variable is 2

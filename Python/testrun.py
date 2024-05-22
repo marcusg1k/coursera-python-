@@ -9,17 +9,11 @@
 #9 initial value of the outer loop - 2 (Correct)
 #10 code causes an infinite loop - use for loop (wrong)
 
-#fill in the blanks to complete the "even_numbers" function
-#function should return a space separated string of all positive even numbers
-#print(even_numbers(6)) #should be 2 4 6
+# initial value of the outerloop variable
 
-def even_numbers(maximum):
-    return_string = ""
-    for x in range(2, maximum+1, 2):
-        return_string += str(x) + " "
-    return return_string.strip()
-print(even_numbers(6)) # should be 2 4 6
-print(even_numbers(10)) # should be 2 4 6 8 10
-print(even_numbers(1)) # should be empty
-print(even_numbers(3)) # should be 2
-print(even_numbers(0)) # should be empty
+for outer_loop in range(2, 6+1):
+    for inner_loop in range(outer_loop):
+        if inner_loop % 2 == 0:
+            print(inner_loop)
+
+# the initial value of the outer loop variable is 2
