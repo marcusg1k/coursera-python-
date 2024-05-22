@@ -867,3 +867,7 @@ def get_word(sentence, n):
         return("")
 
 print(get_word("This is a lesson about lists", 4))
+
+fruits = ["Pineapple", "Banana", "Apple", "Melon"]
+fruits.append("Kiwi")
+print(fruits)
