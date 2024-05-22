@@ -131,5 +131,21 @@ pass: a placeholder statement which is used when the syntax requires a statement
 recursion: the repeated application of the same procedure to a smaller problem
 while loop: this is used when a segment of code needs to execute repeatedly while a condition is true 
 
+Module 3 stuff: 
+variables: know how ot properly initialize or increment a variable, you will also need to recognize a coding error due to the failure to properly initlialize a variable
+
+infinite loops: know how to recognize infinite loops and use common solutions to prevent them, check loop conditions, ranges, iterators, control statements
+
+Iterators: know the various options available for iterating a variable (using assignment operators) using the third range() function
+
+control statements: know how and when to use the break and continue control statements to prevent infinite loops
+
+common functions: 
+range() function parameters - know roles of the three possible range(x, y, z)
+x = start of range (included)
+y = end of range (excluded index)
+z = incremental value
+
+print() Function default behavior
 
 
