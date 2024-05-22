@@ -120,6 +120,12 @@ start: first item in range()
 stop: second item in range()
 step: third item in the range() 
 
-
+break: A way to exit out of a loop before the loop's condition is false
+control statements: programming constructs that direct the flow of execution of a program by allowing you to make decisions, repeat actions, or choose between different code paths based on specfic conditions
+For loop: this executes a block of code for a specified number of iterations or over a collection of items
+infinite loop: a sequence that is missing a method for eiting the loop, causing the loop to run forever
+iterators: variables that allow you to loop through a collection one item at a time
+loop: a sequence that makes the computer do repetitive tasks
+programming: the process of writing a program to behave in different ways
 
 
