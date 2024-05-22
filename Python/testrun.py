@@ -1,6 +1,10 @@
-for outer_loop in range(2, 6 + 1): 
-    for inner_loop in range(outer_loop):
-        if inner_loop % 2 == 0: 
-            print(inner_loop)
+#lets fix this infinite loop
 
-# the initial value of the outer loop is 2
+def count_to_ten(): 
+    for x in range(1, 11): 
+        print(x)
+
+
+count_to_ten()
+
+# how to fix this infinite loop
