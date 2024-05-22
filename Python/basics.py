@@ -730,9 +730,9 @@ print(countdown(0))
 #function should return a space separated string of all positive even numbers
 #print(even_numbers(6)) #should be 2 4 6
 
-def even_numbers(n):
+def even_numbers(maximum):
     return_string = ""
-    for x in range(2, n+1, 2):
+    for x in range(2, maximum+1, 2):
         return_string += str(x) + " "
     return return_string.strip()
 print(even_numbers(6)) # should be 2 4 6
