@@ -833,3 +833,13 @@ def convert_distance(miles):
 print(convert_distance(12)) #should be 12 miles equals 19.2 km
 print(convert_distance(5.5)) #should be 5.5 miles equals 8.8 km
 print(convert_distance(11)) #should be 11 miles equals 17.6 km
+
+#fill gaps with nametag function
+
+def nametag(first_name, last_name):
+    #ends with .format
+    return "{0} {1}.".format(first_name, last_name[0])
+
+
+print(nametag("Jane", "Smith")) #should output Jane S.
+print(nametag("Marcus", "NPC")) #should output Marcus N.
