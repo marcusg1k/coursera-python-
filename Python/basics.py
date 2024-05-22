@@ -774,3 +774,13 @@ print(len(pet))
 name = "Marcus" 
 print(name[1:5])
 #prints only arcu
+#string slicing
+
+fruit = "Banana"
+print(fruit[1:4])
+#prints ana
+
+#string slicing
+"system".index("s")
+print("system".index("y"))
+#outputs 1 because y is at index 1
