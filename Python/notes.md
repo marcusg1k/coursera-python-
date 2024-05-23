@@ -65,3 +65,10 @@
   int() - converts a value (usually a float) to an integer data type 
   float() - converts a value (usually an integer) to a float data type
 
+  Dictionary: Stores key:value pairs, immutable keys but mutable and duplicate values (no, it is unordered and random)
+  Set: An unordered collection of unique elements, mutable but unique elements only (no, it is unordered and unique)
+  List: A sequential, mutable collection of any data type, mutable and allows duplicate elements (yes, and with numeric index assignment) 
+  String: A sequential, immutable collection of textual data, immutable but allows duplicate elements (yes, but with a sequence of textual data) 
+  Tuple: A sequential, immutable collection of any data type, immutable but allows duplicate elements (yes, and with numeric index assignment)
+
+
