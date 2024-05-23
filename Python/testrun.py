@@ -1,13 +1,12 @@
-filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.out"]
-#gererate new filenames as a list containing the new filenames
+#create a function that turns text into pig latin
 
-new_filenames = []
-for filename in filenames:
-    if filename.endswith(".hpp"):
-        new_filenames.append(filename[:-2])
-    elif filename.endswith(".h"):
-        new_filenames.append(filename[:-1])
-    else:
-        new_filenames.append(filename)
-print(new_filenames)
-#should print ["program.c", "stdio.h", "sample.h", "a.out", "math.h", "hpp.out"]
+def pig_latin(text): 
+    say = ""
+
+    words = text.split()
+    for word in words:
+        say += word[1:] + word[0] + "ay "
+        return say
+    
+print(pig_latin("hello how are you"))
+print(pig_latin("programming in python is fun"))
