@@ -952,3 +952,9 @@ my_tuple = (1, 2, ['a', 'b', 'c'])
 # But you can modify the mutable elements within the tuple
 my_tuple[2][0] = 'x'  
 print(my_tuple)  # Outputs: (1, 2, ['x', 'b', 'c'])
+
+def calculate_numbers(a, b):
+    return a+b, a-b, a*b, a/b
+
+result = calculate_numbers(10, 2)
+print(result)  # Outputs: (12, 8, 20, 5.0)
