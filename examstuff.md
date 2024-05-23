@@ -186,3 +186,21 @@ list.copy() - creates a copy of the list
 list.extend(other_list) - appends all the elements of other_list at the end of list
 map(function, iterable) - applies a given function to each item of an iterable(such as a list) and returns a map object with the results
 zip(*iterables) - takes in iterables as arguments and returns an iterator that generates tuples, where the i-th tuple contains the i-th element from eahc of the argument iterables
+
+review:
+immutable keys but mutable and duplicate values = Dictionary
+
+immutable but allows duplicate elements = String
+
+mutable and allows duplicate elements = List
+
+mutable but unique elements only = Set
+
+Immutable but allows duplicate elements = Tuple
+
+no it is unordered and unique = Set
+no it is unordered and random = Dictionary
+yes, and with numeric index assignment = List
+yes, and with numeric index assignment = Tuple
+yes, but with a sequence of textual data = String
+

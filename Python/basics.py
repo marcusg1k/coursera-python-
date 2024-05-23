@@ -1055,3 +1055,5 @@ for key, value in cool_beasts.items():
 # this is an example of a list
 "Call me marcus"
 # this is an example of a string
+x = set()
+# this is for set
