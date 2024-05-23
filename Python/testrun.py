@@ -1,6 +1,1 @@
-#what is the content printed from the given dictionary wardrobe
-
-wardrobe = {'shirt': ['red', 'blue', 'white'], 'jeans': ['blue', 'black']}
-new_items = {'jeans':['white'], 'scarf':['yellow'], 'socks': ['black', 'brown']}
-wardrobe.update(new_items)
-print(wardrobe)
+#5) 

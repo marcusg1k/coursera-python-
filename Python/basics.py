@@ -1090,3 +1090,24 @@ wardrobe = {'shirt': ['red', 'blue', 'white'], 'jeans': ['blue', 'black']}
 new_items = {'jeans':['white'], 'scarf':['yellow'], 'socks': ['black', 'brown']}
 wardrobe.update(new_items)
 print(wardrobe)
+
+#fill in to complete the "confirm_length" function
+#function should return how many characters a string contains as long as it has one or more characters
+
+def confirm_length(word):
+    if len(word) > 0: 
+        return len(word)
+    else: 
+        return 0
+    
+print(confirm_length("a")) #should print 1
+print(confirm_length("marcus")) #should print 6
+
+#2) fill in the blank to complete the "highlight_word" function
+# this function should change the given "word" to uppercase
+
+def highlight_word(sentence, word):
+    return sentence.replace(word, word.upper())
+
+print(highlight_word("Have a great day", "nice")) 
+# should print Have a NICE day
