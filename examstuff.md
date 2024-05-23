@@ -173,3 +173,5 @@ sequence[x] - accesses the element at index [x] of the sequence, starting at zer
 sequence[x:y] - accesses a slice starting at index [x], ending at index [y-1]. If [x] is omitted, the index will start at 0 by default. If [y] is omitted, the len(sequence) will set the ending index position by default
 for index, element in enumerate(sequence) - iterates over both the indices and the elements in the sequence at the same time
 
+list[index] = x - replaces the element at index [n] with x
+list.append(x) - Appends x to the end of the list
