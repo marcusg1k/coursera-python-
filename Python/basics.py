@@ -1057,3 +1057,13 @@ for key, value in cool_beasts.items():
 # this is an example of a string
 x = set()
 # this is for set
+
+#complete email_list function
+def email_list(domains):
+    emails = []
+    for domain, users in domains.items():
+        for user in users:
+            emails.append(user + "@" + domain)
+    return(emails)
+
+print(email_list({"gmail.com": ["clark.kent", "diana.prince", "peter.parker"]}))
