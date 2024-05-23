@@ -1,7 +1,11 @@
-#lets use tuples to store information
+#try the enumerate function
 
-def file_size(file_info):
-    name, type, size = file_info
-    return("{:.2f}".format(size / 1024))
-
-print(file_size(('Class Assignment', 'docx', 17875)))
+def skip_elements(elements):
+    new_list = []
+    for index, element in enumerate(elements):
+        if index % 2 == 0:
+            new_list.append(element)
+    return new_list
+        
+print(skip_elements(["a", "b", "c", "d", "e", "f",]))
+#should output a c e g

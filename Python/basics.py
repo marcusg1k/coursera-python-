@@ -884,3 +884,13 @@ def full_emails(people):
     result.append("{} <{}>".format(name, email))
   return result
 print(full_emails([("alex@example.com", "Alex Diego"), ("shay@example.com", "Shay Brandt")]))
+
+multiples = []
+for x in range(1,11):
+  multiples.append(x*7)
+
+print(multiples)
+
+languages = ["Python", "Perl", "Ruby", "Go", "Java", "C"]
+lengths = [len(language) for language in languages]
+print(lengths)
