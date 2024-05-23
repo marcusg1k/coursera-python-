@@ -1034,3 +1034,13 @@ biography_list([("Ira", 30, "a Chef"), ("Raj", 35, "a Lawyer"), ("Maria", 25, "a
 # Ira is 30 years old and works as a Chef
 # Raj is 35 years old and works as a Lawyer
 # Maria is 25 years old and works as an Engineer
+
+file_counts = {"jpg":10, "txt":14, "csv":2, "py":23}
+for extension in file_counts:
+  print(extension)
+
+  #complete the code to iterate through the keys and values of cool_beasts
+
+cool_beasts = {"octopuses":"tentacles", "dolphins":"fins", "rhinos":"horns"}
+for key, value in cool_beasts.items():
+    print("{} have {}".format(key, value))
