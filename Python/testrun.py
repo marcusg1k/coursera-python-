@@ -1,6 +1,13 @@
-def squares(start, end):
-    return [ x**2 for x in range(start, end+1) ]
+filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.out"]
+#gererate new filenames as a list containing the new filenames
 
-print(squares(2, 3))    # Should print [4, 9]
-print(squares(1, 5))    # Should print [1, 4, 9, 16, 25]
-print(squares(0, 10))   # Should print [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+
+new_filenames = []
+for filename in filenames:
+    if filename.endswith(".hpp"):
+        new_filenames.append(filename[:-2])
+    else:
+        new_filenames.append(filename)
+
+print(new_filenames)

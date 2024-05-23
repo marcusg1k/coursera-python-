@@ -965,3 +965,16 @@ def calculate_numbers(a, b):
 add_result, sub_result, mul_result, div_result = calculate_numbers(10, 2)
 print(add_result)  # Outputs: 12
 print(sub_result)  # Outputs: 8
+
+filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.out"]
+#gererate new filenames as a list containing the new filenames
+
+
+new_filenames = []
+for filename in filenames:
+    if filename.endswith(".hpp"):
+        new_filenames.append(filename[:-2])
+    else:
+        new_filenames.append(filename)
+
+print(new_filenames)
