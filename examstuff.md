@@ -175,3 +175,13 @@ for index, element in enumerate(sequence) - iterates over both the indices and t
 
 list[index] = x - replaces the element at index [n] with x
 list.append(x) - Appends x to the end of the list
+list.insert(index, x) - inserts x at index position [index]
+list.pop(index) - returns the element at [index] and removes it from the list. If [index] position is not in the list, the last element in the list is returned and removed
+list.remove(x) - Removes the first occurence of x in the list
+list.sort() - Sorts the items in the list
+list.reverse() - reverses the order of items of the list
+list.clear() - deletes all items in the list
+list.copy() - creates a copy of the list
+list.extend(other_list) - appends all the elements of other_list at the end of list
+map(function, iterable) - applies a given function to each item of an iterable(such as a list) and returns a map object with the results
+zip(*iterables) - takes in iterables as arguments and returns an iterator that generates tuples, where the i-th tuple contains the i-th element from eahc of the argument iterables
