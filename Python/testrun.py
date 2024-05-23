@@ -1,11 +1,10 @@
-#try the enumerate function
+#fill in, using list comprehension
 
-def skip_elements(elements):
-    new_list = []
-    for index, element in enumerate(elements):
-        if index % 2 == 0:
-            new_list.append(element)
-    return new_list
-        
-print(skip_elements(["a", "b", "c", "d", "e", "f",]))
-#should output a c e g
+def odd_numbers(n):
+    return [x for x in range(1, n+1) if x % 2 != 0]
+
+print(odd_numbers(5))
+print(odd_numbers(10))
+print(odd_numbers(11))
+print(odd_numbers(1))
+print(odd_numbers(-1))
