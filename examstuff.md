@@ -165,3 +165,11 @@ string.lower() = string method that returns a copy of the string with all lowerc
 
 List = sequences of elements of any type and are mutable
 tuples = sequences of elements of any type, that are immutable
+
+len(sequence) - returns the length of the sequence
+for element in sequence - iterates over each element in the sequence
+if element in sequence - checks whether the element is part of the sequence
+sequence[x] - accesses the element at index [x] of the sequence, starting at zero
+sequence[x:y] - accesses a slice starting at index [x], ending at index [y-1]. If [x] is omitted, the index will start at 0 by default. If [y] is omitted, the len(sequence) will set the ending index position by default
+for index, element in enumerate(sequence) - iterates over both the indices and the elements in the sequence at the same time
+
