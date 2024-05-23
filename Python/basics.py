@@ -958,3 +958,10 @@ def calculate_numbers(a, b):
 
 result = calculate_numbers(10, 2)
 print(result)  # Outputs: (12, 8, 20, 5.0)
+
+def calculate_numbers(a, b):
+    return a+b, a-b, a*b, a/b
+
+add_result, sub_result, mul_result, div_result = calculate_numbers(10, 2)
+print(add_result)  # Outputs: 12
+print(sub_result)  # Outputs: 8
