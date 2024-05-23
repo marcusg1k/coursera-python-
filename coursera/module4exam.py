@@ -77,3 +77,42 @@ def setup_guests(guest_list):
 guests = ["Marcus", "NPC", "NPC2", "NPC3"]
 
 print(setup_guests(guests))
+
+#7) use a dictionary to count the frequency of numbers in the given "text" string
+# accept a string "text" variable
+#intiliaze an new dictionary
+# iterate over each text character to check if the character is a number
+# count the frequency of numbers in the input string, ignoring all other characters
+# populate the new dictionary with the numbers as keys
+# return the new dictionary
+
+def count_numbers(text):
+    dictionary = {} 
+    for char in text:
+        if char.isdigit():
+            if char in dictionary:
+                dictionary[char] += 1
+            else:
+                dictionary[char] = 1
+    return dictionary
+
+print(count_numbers("1001000111101"))
+#should be {'1': 7, '0': 6}
+
+#8) what do the following commands return when genre = "transcendental"?
+
+genre = "transcendental"
+print(genre[:-8]) 
+print(genre[-7:9])
+
+#9) What does the list "music_genres" contain after these commands are executed? 
+
+
+music_genres = ["rock", "pop", "country"]
+music_genres.append("blues")
+
+print(music_genres)
+#10) What do the following commands return?
+
+host_addresses = {"router": "192.168.1.1", "localhost": "127.0.0.1", "google": "8.8.8.8"}
+print(host_addresses.keys())
