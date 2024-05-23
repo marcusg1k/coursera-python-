@@ -1067,3 +1067,26 @@ def email_list(domains):
     return(emails)
 
 print(email_list({"gmail.com": ["clark.kent", "diana.prince", "peter.parker"]}))
+
+#groups_per_user function receives a dicrtionary which contains group names with a list of users
+
+def groups_per_user(group_dictionary): 
+    user_groups = {} 
+    #go through group_dictionary
+    for group, users in group_dictionary.items(): 
+        #now go through the users in the group
+        for user in users: 
+            if user not in user_groups: 
+                user_groups[user] = [] 
+            user_groups[user].append(group)
+
+    return (user_groups)
+        
+print(groups_per_user({"local": ["admin", "userA"], "public": ["admin", "userB"], "administrator": ["admin"] }))
+
+#what is the content printed from the given dictionary wardrobe
+
+wardrobe = {'shirt': ['red', 'blue', 'white'], 'jeans': ['blue', 'black']}
+new_items = {'jeans':['white'], 'scarf':['yellow'], 'socks': ['black', 'brown']}
+wardrobe.update(new_items)
+print(wardrobe)

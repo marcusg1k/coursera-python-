@@ -1,10 +1,6 @@
-#complete email_list function
+#what is the content printed from the given dictionary wardrobe
 
-def email_list(domains):
-    emails = []
-    for domain, users in domains.items():
-        for user in users:
-            emails.append(user + "@" + domain)
-    return(emails)
-
-print(email_list({"gmail.com": ["clark.kent", "diana.prince", "peter.parker"]}))
+wardrobe = {'shirt': ['red', 'blue', 'white'], 'jeans': ['blue', 'black']}
+new_items = {'jeans':['white'], 'scarf':['yellow'], 'socks': ['black', 'brown']}
+wardrobe.update(new_items)
+print(wardrobe)
