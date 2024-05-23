@@ -49,3 +49,31 @@ def squares(start, end):
 
 print(squares(2, 3)) #should print [4, 9]
 print(squares(1, 5)) #should print [1, 4, 9, 16, 25]
+
+#5) fill in to complete the "countries" function
+#functions accepts a dictionary containing a list of continents
+
+def countries(countries_dict):
+    result = ""
+
+    for continent, countries in countries_dict.items():
+        result += continent + ": " + ", ".join(countries) + "\n"
+    return result
+
+print(countries({"Africa": ["Nigeria", "Ghana", "Kenya"], "Asia": ["China", "India", "Thailand"]}))
+
+#6) Complete the function so that it accepts a list of people, then iterates over the list and adds all the names
+#function should: accept a list variable named "guest_list"
+# add the contents of the list as keys to a new, blank dictionary; 
+# assign each new key with the value 0; 
+# print the new dictionary
+
+def setup_guests(guest_list):
+    result = {}
+    for guest in guest_list:
+        result[guest] = 0
+    return result
+
+guests = ["Marcus", "NPC", "NPC2", "NPC3"]
+
+print(setup_guests(guests))
