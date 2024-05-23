@@ -1,10 +1,18 @@
-#fill in, using list comprehension
+### Simple List Comprehension
+print("List comprehension result:")
 
-def odd_numbers(n):
-    return [x for x in range(1, n+1) if x % 2 != 0]
+# The following list comprehension compacts several lines 
+# of code into one line:
+print([x*2 for x in range(1,11)])
 
-print(odd_numbers(5))
-print(odd_numbers(10))
-print(odd_numbers(11))
-print(odd_numbers(1))
-print(odd_numbers(-1))
+### Long form for loop
+print("Long form code result:")
+
+# The list comprehension above accomplishes the same result as
+# the long form version of the code shown below:
+my_list = []
+for x in range(1,11):
+    my_list.append(x*2)
+print(my_list)
+
+# Select Run to compare the two results.
