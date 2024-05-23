@@ -264,3 +264,5 @@ Dictionary Operations and Methods
 .copy()
 dictionary[key]
 dictionary[key] = value 
+
+jupiternotebook link: https://shareduoxrhewy.labs.coursera.org/notebooks/C1M6L1_Putting_It_All_Together.ipynb
