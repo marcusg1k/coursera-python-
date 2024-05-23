@@ -1,3 +1,2 @@
-fruits = ["Pineapple", "Banana", "Apple", "Melon"]
-fruits.append("Kiwi")
-print(fruits)
+fullname = ('Marcus', 'Aurelius', 'NPC')
+print(fullname)

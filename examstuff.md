@@ -164,3 +164,4 @@ string.replace(old, new) = string method that returns a new string where all occ
 string.lower() = string method that returns a copy of the string with all lowercase characters
 
 List = sequences of elements of any type and are mutable
+tuples = sequences of elements of any type, that are immutable
