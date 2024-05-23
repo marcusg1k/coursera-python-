@@ -96,7 +96,7 @@ Class methods, on the other hand, are called for the class itself instead of an 
 Static methods
 Lastly, static methods, marked with a @staticmethod decorator, do not take a self or a cls parameter. Static methods behave like plain functions, except that you can call them directly from the class. It is important to note that you do not have to actually instantiate the class, the methods just reside in there. This is because class definitions are themselves an object (i.e., an instance of abstract base class), which reduces overhead and allows functions to be encapsulated in an easy-to-use encapsulation. Programmers use static methods when the method does not need to access any instance or class-specific data.
 
-
+sort vs sorted function: sorted returns a new list, while sort returns the same list reorganized
 
 
 

@@ -1,4 +1,10 @@
-#10) What do the following commands return?
+# what is the purpose of if len(users) > 0 
 
-host_addresses = {"router": "192.168.1.1", "localhost": "127.0.0.1", "google": "8.8.8.8"}
-print(host_addresses.keys())
+def generate_report(machines):
+  for machine, users in machines.items():
+    if len(users) > 0:
+      user_list = ", ".join(users)
+      print("{}: {}".format(machine, user_list))
+
+# if len(users) > 0 is used to check if the list of users is empty or not
+#If the list is not empty, the code inside the if statement will be executed. This helps to avoid printing empty lists or unnecessary information
