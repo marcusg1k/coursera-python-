@@ -165,6 +165,7 @@ string.lower() = string method that returns a copy of the string with all lowerc
 
 List = sequences of elements of any type and are mutable
 tuples = sequences of elements of any type, that are immutable
+string = a sequential, immutable collection of textual data
 
 len(sequence) - returns the length of the sequence
 for element in sequence - iterates over each element in the sequence
