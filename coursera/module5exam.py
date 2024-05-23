@@ -32,4 +32,12 @@ print(numbers)
 #9) Which of the following statements accurately describes the purpose of an elif statement in python?
 #chose: to execute a block of code if a specific condition is true, otherwise execute another block of code
 
-#10) 
+#10) what is the purpose of this following code snippet? 
+
+def generate_report(machines):
+    for machine, users in machines.items(): 
+        if len(users) > 0: 
+            user_list = ", ".join(users)
+            print("{}: {}".format(machine, user_list))
+
+#chose: purpose of this code is to create a list of all users logged into any machine and the machine theyre logged into
